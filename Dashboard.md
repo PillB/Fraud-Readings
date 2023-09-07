@@ -3,16 +3,17 @@ graph TD
 A[PLSQL Databases]
 B[ETL Process]
 C[PowerBI]
-D[Dashboard de Fraude por Segmento y Subsegmento]
-E[Dashboard de Autonomía y Riesgo]
-F[Mapa de Calor de Montos de Fraude]
-G[Gráfico de Índice de Fraude / Ventas]
-H[Gráfico de Correlación de Autonomía y Pagos Atrasados]
-I[Gráfico de Análisis de Riqueza Externa y Consumo]
-J[Heatmap de Riesgo de Fraude]
-K[Gráfico de Anomalías según Ley de Benford]
-L[Árbol de Decisión de Modelado de Machine Learning]
-M[Gráfico de Series Temporales de Fraude]
+D[Dashboard Fraude X Segmento/Subsegmento]
+E[Dashboard Autonomía y Riesgo]
+F[Mapa de Calor de Fraude]
+G[Índice de Fraude / Ventas]
+H[Correlación Autonomía vs Pagos Atrasados]
+I[Análisis de Riqueza Externa y Consumo]
+J[Análisis Geográfico de Correlaciones]
+K[Heatmap de Riesgo de Fraude]
+L[Gráfico de Anomalías]
+M[Visualizaciones de Modelado]
+N[Gráfico de Evol. Temporal]
 A --> B
 B --> C
 C --> D
@@ -21,8 +22,9 @@ D --> F
 D --> G
 E --> H
 E --> I
-D --> J
+E --> J
 D --> K
 D --> L
 D --> M
+D --> N
 ```
